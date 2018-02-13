@@ -1,0 +1,13 @@
+#include "stdafx.h"
+
+namespace Offsets
+{
+	char moniesOpCode[]; //= { "\x90\x90\x90\x90\x90\x90" };
+	DWORD moniesAddy;
+	int Initialize()
+	{
+		moniesAddy = Utils::FindPattern("Bionic.exe",
+			"\x89\x88\x00\x00\x00\x00\xEB\x4A\xB8\x00\x00\x00\x00\x89\x85\x00\x00\x00\x00\x8B\x05\x00\x00\x00\x00\x89\x85\x00\x00\x00\x00\x83\xEC\x08",
+			"xx????xxx????xx????xx????xx????xxx");
+	}
+}

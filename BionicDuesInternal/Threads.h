@@ -1,9 +1,8 @@
-#include <Windows.h>
-
 namespace Threads
 {
 	extern bool killSwitch;
-	void Toggle();
-	void DrawMenu();
-	void MainThread();
+	extern void Toggle();
+	extern void DrawMenu(CichyGDI* cgdi);
+	extern void Main();
+	extern int Initialize();
 }

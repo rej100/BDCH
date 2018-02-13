@@ -15,10 +15,12 @@
 #include <stdio.h>
 #include <vector>
 #include <algorithm>
+#include <thread>
 #include "CichyGDI.h"
 #include "Utils.h"
 #include "Threads.h"
 #include "Offsets.h"
+#include "Options.h"
 
 
 

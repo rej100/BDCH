@@ -21,11 +21,11 @@ void mainHack()
 	HMODULE hModule = GetModuleHandle("BionicDuesInternal.dll");
 	AllocConsole();
 	freopen("CONOUT$", "w", stdout);
-	SetConsoleTitle("BDCH v0.02");
+	SetConsoleTitle("BDCH v0.14");
 
-	CichyGDI cGDI(FindWindow(0, "Bionic Dues"));
-	cGDI.Initialize();
+	Threads::Initialize();
 
+	std::cout << "EXITING" << std::endl;
 	FreeConsole();
 	FreeLibraryAndExitThread(hModule, 0);
 }
