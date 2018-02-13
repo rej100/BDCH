@@ -1,0 +1,14 @@
+\x89\x88\x00\x00\x00\x00\xEB\x4A\xB8\x00\x00\x00\x00\x89\x85\x00\x00\x00\x00\x8B\x05\x00\x00\x00\x00\x89\x85\x00\x00\x00\x00\x83\xEC\x08
+xx????xxx????xx????xx????xx????xxx
+Bionic.exe
+0xFFFFE
+
+//original
+280A858C   8988 EC000000    MOV DWORD PTR DS:[EAX+EC],ECX            ; 1
+//modified
+280A858C   90               NOP                                      ; 1
+280A858D   90               NOP
+280A858E   90               NOP
+280A858F   90               NOP
+280A8590   90               NOP
+280A8591   90               NOP

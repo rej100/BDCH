@@ -1,0 +1,41 @@
+﻿  stdafx.cpp
+  CichyGDI.cpp
+k:\dev\bionicduesinternal\bionicduesinternal\cichygdi.cpp(26): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+k:\dev\bionicduesinternal\bionicduesinternal\cichygdi.cpp(27): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  BionicDuesInternal.cpp
+  Generating Code...
+  dllmain.cpp
+k:\dev\bionicduesinternal\bionicduesinternal\dllmain.cpp(23): error C2664: 'HMODULE GetModuleHandleW(LPCWSTR)': cannot convert argument 1 from 'const char [24]' to 'LPCWSTR'
+  k:\dev\bionicduesinternal\bionicduesinternal\dllmain.cpp(23): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+k:\dev\bionicduesinternal\bionicduesinternal\dllmain.cpp(26): error C2664: 'BOOL SetConsoleTitleW(LPCWSTR)': cannot convert argument 1 from 'const char [12]' to 'LPCWSTR'
+  k:\dev\bionicduesinternal\bionicduesinternal\dllmain.cpp(26): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+k:\dev\bionicduesinternal\bionicduesinternal\dllmain.cpp(28): error C2664: 'HWND FindWindowW(LPCWSTR,LPCWSTR)': cannot convert argument 2 from 'const char [34]' to 'LPCWSTR'
+  k:\dev\bionicduesinternal\bionicduesinternal\dllmain.cpp(28): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+k:\dev\bionicduesinternal\bionicduesinternal\dllmain.cpp(28): error C2512: 'CichyGDI::CichyGDI': no appropriate default constructor available
+k:\dev\bionicduesinternal\bionicduesinternal\dllmain.cpp(30): error C2653: 'Offsets': is not a class or namespace name
+k:\dev\bionicduesinternal\bionicduesinternal\dllmain.cpp(30): error C3861: 'calculateOffsets': identifier not found
+k:\dev\bionicduesinternal\bionicduesinternal\dllmain.cpp(32): error C2039: 'thread': is not a member of 'std'
+  k:\program files\visual studio 2017\vc\tools\msvc\14.10.25017\include\algorithm(14): note: see declaration of 'std'
+k:\dev\bionicduesinternal\bionicduesinternal\dllmain.cpp(32): error C2065: 'thread': undeclared identifier
+k:\dev\bionicduesinternal\bionicduesinternal\dllmain.cpp(32): error C2146: syntax error: missing ';' before identifier 'mn'
+k:\dev\bionicduesinternal\bionicduesinternal\dllmain.cpp(32): error C2653: 'HelperThreads': is not a class or namespace name
+k:\dev\bionicduesinternal\bionicduesinternal\dllmain.cpp(32): error C2065: 'DrawMenu': undeclared identifier
+k:\dev\bionicduesinternal\bionicduesinternal\dllmain.cpp(32): error C3861: 'mn': identifier not found
+k:\dev\bionicduesinternal\bionicduesinternal\dllmain.cpp(38): error C2653: 'Offsets': is not a class or namespace name
+k:\dev\bionicduesinternal\bionicduesinternal\dllmain.cpp(38): error C2065: 'uHealth': undeclared identifier
+k:\dev\bionicduesinternal\bionicduesinternal\dllmain.cpp(40): error C2653: 'Offsets': is not a class or namespace name
+k:\dev\bionicduesinternal\bionicduesinternal\dllmain.cpp(40): error C2065: 'health': undeclared identifier
+k:\dev\bionicduesinternal\bionicduesinternal\dllmain.cpp(42): error C2653: 'Offsets': is not a class or namespace name
+k:\dev\bionicduesinternal\bionicduesinternal\dllmain.cpp(42): error C2065: 'uMana': undeclared identifier
+k:\dev\bionicduesinternal\bionicduesinternal\dllmain.cpp(44): error C2653: 'Offsets': is not a class or namespace name
+k:\dev\bionicduesinternal\bionicduesinternal\dllmain.cpp(44): error C2065: 'mana': undeclared identifier
+k:\dev\bionicduesinternal\bionicduesinternal\dllmain.cpp(48): error C2653: 'Offsets': is not a class or namespace name
+k:\dev\bionicduesinternal\bionicduesinternal\dllmain.cpp(48): error C2065: 'uHealth': undeclared identifier
+k:\dev\bionicduesinternal\bionicduesinternal\dllmain.cpp(53): error C2653: 'Offsets': is not a class or namespace name
+k:\dev\bionicduesinternal\bionicduesinternal\dllmain.cpp(53): error C2065: 'uMana': undeclared identifier
+k:\dev\bionicduesinternal\bionicduesinternal\dllmain.cpp(59): error C2653: 'HelperThreads': is not a class or namespace name
+k:\dev\bionicduesinternal\bionicduesinternal\dllmain.cpp(59): error C3861: 'killThreads': identifier not found
+k:\dev\bionicduesinternal\bionicduesinternal\dllmain.cpp(64): error C2653: 'Offsets': is not a class or namespace name
+k:\dev\bionicduesinternal\bionicduesinternal\dllmain.cpp(64): error C2065: 'uMenu': undeclared identifier
+k:\dev\bionicduesinternal\bionicduesinternal\dllmain.cpp(25): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(242): note: see declaration of 'freopen'
